@@ -1,16 +1,6 @@
 # Smallest positive number evenly divisible by all of 1..20
+#
+# the brute force version took about 8 seconds. the answer is just the
+# least common multiple of 1..20 and ruby has lcm built in, so:
 
-n = 20
-loop do
-  ok = true
-  (1..20).each do |d|
-    if n % d != 0
-      ok = false
-      break
-    end
-  end
-  break if ok
-  n += 20
-end
-
-puts n
+puts (1..20).inject(1) { |a, b| a.lcm(b) }
