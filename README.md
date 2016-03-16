@@ -15,3 +15,13 @@ solutions in ruby. one file per problem, run with `ruby p001.rb`.
 | 8 | Largest product in a series | 23514624000 |  |
 | 9 | Special Pythagorean triplet | 31875000 |  |
 | 10 | Summation of primes | 142913828922 | sieve |
+| 11 | Largest product in a grid | 70600674 |  |
+| 12 | Highly divisible triangular number | 76576500 |  |
+| 13 | Large sum | 5537376230 | bignum, no work needed |
+| 14 | Longest Collatz sequence | 837799 | memoised |
+| 15 | Lattice paths | 137846528820 | binomial |
+| 16 | Power digit sum | 1366 |  |
+| 17 | Number letter counts | 21124 |  |
+| 18 | Maximum path sum I | 1074 | bottom up |
+| 19 | Counting Sundays | 171 |  |
+| 20 | Factorial digit sum | 648 |  |
