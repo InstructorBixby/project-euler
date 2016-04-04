@@ -25,3 +25,9 @@ solutions in ruby. one file per problem, run with `ruby p001.rb`.
 | 18 | Maximum path sum I | 1074 | bottom up |
 | 19 | Counting Sundays | 171 |  |
 | 20 | Factorial digit sum | 648 |  |
+| 21 | Amicable numbers | 31626 |  |
+| 22 | Names scores | 871198282 | needs names.txt |
+
+
+the big input files (names.txt, words.txt) are not in here, grab them
+off the problem page and drop them in data/
