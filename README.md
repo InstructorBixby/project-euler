@@ -27,7 +27,13 @@ solutions in ruby. one file per problem, run with `ruby p001.rb`.
 | 20 | Factorial digit sum | 648 |  |
 | 21 | Amicable numbers | 31626 |  |
 | 22 | Names scores | 871198282 | needs names.txt |
+| 23 | Non-abundant sums | 4179871 | slow, ~20s |
+| 24 | Lexicographic permutations | 2783915460 |  |
+| 25 | 1000-digit Fibonacci number | 4782 |  |
 
 
 the big input files (names.txt, words.txt) are not in here, grab them
 off the problem page and drop them in data/
+
+`ruby run_all.rb` runs everything and checks against answers.txt.
+problem 23 takes about 19 seconds, everything else is under a second.
