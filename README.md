@@ -30,6 +30,11 @@ solutions in ruby. one file per problem, run with `ruby p001.rb`.
 | 23 | Non-abundant sums | 4179871 | slow, ~20s |
 | 24 | Lexicographic permutations | 2783915460 |  |
 | 25 | 1000-digit Fibonacci number | 4782 |  |
+| 26 | Reciprocal cycles | 983 |  |
+| 27 | Quadratic primes | -59231 |  |
+| 28 | Number spiral diagonals | 669171001 |  |
+| 29 | Distinct powers | 9183 |  |
+| 30 | Digit fifth powers | 443839 |  |
 
 
 the big input files (names.txt, words.txt) are not in here, grab them
