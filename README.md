@@ -35,7 +35,17 @@ solutions in ruby. one file per problem, run with `ruby p001.rb`.
 | 28 | Number spiral diagonals | 669171001 |  |
 | 29 | Distinct powers | 9183 |  |
 | 30 | Digit fifth powers | 443839 |  |
+| 31 | Coin sums | 73682 |  |
+| 34 | Digit factorials | 40730 |  |
+| 35 | Circular primes | 55 |  |
+| 36 | Double-base palindromes | 872187 |  |
+| 38 | Pandigital multiples | 932718654 |  |
+| 39 | Integer right triangles | 840 |  |
+| 40 | Champernowne's constant | 210 |  |
 
+
+gaps: 32, 33, 37. 32 is half done in p032.rb and gives the wrong
+total. 37 needs truncatable primes and i keep putting it off.
 
 the big input files (names.txt, words.txt) are not in here, grab them
 off the problem page and drop them in data/
