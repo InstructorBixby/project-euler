@@ -45,10 +45,12 @@ solutions in ruby. one file per problem, run with `ruby p001.rb`.
 
 
 gaps: 32, 33, 37. 32 is half done in p032.rb and gives the wrong
-total. 37 needs truncatable primes and i keep putting it off.
+total (i am counting some products twice). 37 needs truncatable
+primes and i keep putting it off.
 
 the big input files (names.txt, words.txt) are not in here, grab them
 off the problem page and drop them in data/
 
 `ruby run_all.rb` runs everything and checks against answers.txt.
-problem 23 takes about 19 seconds, everything else is under a second.
+`SKIP=23 ruby run_all.rb` to skip the slow one, which is what travis
+does.
